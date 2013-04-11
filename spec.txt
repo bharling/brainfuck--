@@ -60,7 +60,7 @@ cells wrap
 and
 0x00 - 1 == 0xFF
 array is 30,000 cells in length
-loops on array "underflow/verflow" (moving left/down beyond 1st cell or up/right beyond last cell)
+loops on array "underflow/overflow" (moving left/down beyond 1st cell or up/right beyond last cell)
 pointer starts at first cell
 "read" commands (stdin, file, and network) take in newlines as recieved from the OS
 ie. may be just 10, just 13, or 13 10 (CRLF)
